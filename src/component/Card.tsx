@@ -1,5 +1,4 @@
 import "./Card.css";
-import BTC from "../assests/BTC.png";
 interface CardDataProps {
   cardData: CardDataType;
 }
