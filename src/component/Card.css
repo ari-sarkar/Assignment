@@ -1,0 +1,90 @@
+.Card {
+    width: 292px;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+    backdrop-filter: blur(100px);
+    margin-top: 90px;
+    background: url('../assests/card-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.logo_wrapper {
+    position: relative;
+    top: -25px;
+}
+
+.logo_bg {
+    width: 100px;
+    height: 100px;
+    backdrop-filter: blur(100px);
+    border-radius: 50%;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0) 100%);
+}
+
+.logo_bg_BTC {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+}
+
+.logo_bg_SOL {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(220, 31, 255, 0.1) 100%);
+}
+
+.logo_bg_ETH {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(237, 240, 244, 0.1) 100%);
+}
+
+.logo_bg_BUSD{
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+}
+
+.logo_bg_SHIB {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(228, 45, 4, 0.1) 100%);
+}
+
+.name {
+    color: #737BAE;
+}
+
+.input_wrapper {
+    width: 242px;
+    height: 40px;
+    background: #14172B;
+    border-radius: 17px;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0) 100%);
+    background: linear-gradient(0deg, #14172B, #14172B),
+        linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0) 100%);
+
+}
+
+.input_wrapper p {
+    color: #ECF0FF;
+}
+
+.desc_text {
+    color: #5A5F7D;
+}
+
+.green {
+    color: #00FFA3;
+}
+
+.red {
+    color: #FF4D4D;
+}
+
+.popular_wrapper {
+    width: 121.75px;
+    height: 40px;
+    background: #14172B;
+    border-radius: 29.5px;
+}
+
+.popular_wrapper img {
+    width: 22px;
+    height: 22px;
+}
